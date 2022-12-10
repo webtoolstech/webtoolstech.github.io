@@ -1,0 +1,27 @@
+*{margin:0; padding: 0;}
+body{background-color: #FEFCF3;}
+.middle{
+    margin-left: 20%;
+    width:50%;
+}
+nav{
+    margin-bottom: 200px;
+    background-color: #DBA39A;
+    width:100%;
+    
+}
+nav img{
+    width:100px;
+    margin-left: 20%;
+}
+.middle img{
+    width: 200px;
+}
+.text{float: left; width:50%;}
+@media only screen and (max-width:1409px){
+    nav{
+        display:block;
+        
+    }
+    .text{float: none;}
+}
